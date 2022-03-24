@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: rgb(245, 245, 245);
+  color: #575F7D;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+h1, h2 {
+  font-family: 'Poppins';
+}
+
+h1 {
+  color:#789395;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #268BD2;
+}
+
+a:hover {
+  color: #1B6295;
+}
+
+.card-white {
+  background-color: white;
+  padding: 24px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  margin: 24px auto;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.img-circle {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-color: black;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.list-inline{
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
